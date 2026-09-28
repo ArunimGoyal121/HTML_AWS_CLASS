@@ -17,6 +17,80 @@
         box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
         text-shadow: 2px 2px 4px rgb(0, 0, 0);
       }
+       .education{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        background-color: rgb(83, 78, 78);
+        text-emphasis-color: rgb(193, 20, 20);
+        text-align: center;
+        border-radius:30%;
+        box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+      }
+      
+.projects-heading {
+  text-align: center;
+  background-color: rgb(83, 78, 78);
+  border-radius: 5px;
+}
+
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 20px;           
+}
+
+
+.project-item {
+  width: 80%;         
+  text-align: center;  
+  padding: 10px;
+  background-color: rgb(83, 78, 78);
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+.skillitems{
+  display:flex;
+  justify-content: center;
+  padding : 10px;
+  background-color: rgb(83, 78, 78);
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  flex-direction : column;
+  margin : 8px 0 ;
+}
+.skills ul{
+  display:flex;
+  justify-content: center;
+  gap : 20px;
+}
+
+.projects-container div {
+  display: block;
+  text-align: center;
+  margin: 8px 0; 
+}
+.nav-links {
+  display:flex;
+  justify-content: center;
+  gap : 20px;
+}
+.skills{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  
+}
+
+
+
     </style>
   </head>
   <body>
@@ -25,6 +99,8 @@
         text-align: center;
         margin-top: 20px;
         background-color: rgb(83, 78, 78);
+        border-radius: 5px;
+        border : 2px solid rgb(255,255,255);
       "
     >
       <h1>
@@ -40,6 +116,8 @@
         background-color: rgb(83, 78, 78);
         text-emphasis-color: white;
         text-align: center;
+        border-radius: 5px;
+        border : 2px solid rgb(255,255,255);
       "
     >
       <h2 ><b>About Me</b></h2>
@@ -51,11 +129,13 @@
       </pre>
     </div>
     <hr />
-    <div
+    <div id="education"
       style="
         background-color: rgb(83, 78, 78);
         text-emphasis-color: white;
         text-align: center;
+        border-radius: 5px;
+        border : 2px solid rgb(255,255,255);
       "
     >
       <h2><b> My Education</b></h2>
@@ -69,19 +149,21 @@
       >
     </div>
     <hr />
-    <div
+    <div id ="skills"
       style="
         background-color: rgb(83, 78, 78);
         text-emphasis-color: white;
         text-align: center;
+        border-radius: 5px;
+        border : 2px solid rgb(255,255,255);
       "
     >
       <h2><b> My Skills</b></h2>
       <br />
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+        <li class = "skillitems">HTML</li>
+        <li class = "skillitems">CSS</li>
+        <li class = "skillitems">JavaScript</li>
       </ul>
     </div>
     <hr />
@@ -90,6 +172,8 @@
         background-color: rgb(83, 78, 78);
         text-emphasis-color: white;
         text-align: center;
+        border-radius:5px;
+        border : 2px solid rgb(255,255,255);
       "
     >
       <h2><b> My Goals</b></h2>
@@ -106,11 +190,23 @@
         background-color: rgb(83, 78, 78);
         text-emphasis-color: white;
         text-align: center;
+        border-radius:5px;
+        border : 2px solid rgb(255,255,255);
+        
       "
     >
     <a href ="#about">About me </a>
       <a href="registrationform.html">contact me </a>
     </div>
+    <section class="projects-section">
+  <h2 class="projects-heading">My Projects</h2>
+  <div class="projects-container">
+    <div class="project-item">restaurant website <p>This is a simple restaurant website </p></div>
+    <div class="project-item">portfolio website <p>This is a simple portfolio website </p></div>
+    <div class="project-item">e-commerce website <p>This is a simple e-commerce website </p></div>
+    <div class="project-item">registration form <p>This is a simple registration form </p> <a href="registrationform.html">View Details</a></div>
+  </div>
+</section>
   </body>
 </html>
 
