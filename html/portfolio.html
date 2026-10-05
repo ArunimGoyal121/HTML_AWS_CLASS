@@ -5,92 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <style>
+      
       body {
         background-color: rgb(96, 91, 91);
         color: white;
       }
-      .about{
+      .about {
         background-color: rgb(83, 78, 78);
         text-emphasis-color: rgb(193, 20, 20);
         text-align: center;
-        border-radius:30%;
+        border-radius: 30%;
         box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
         text-shadow: 2px 2px 4px rgb(0, 0, 0);
       }
-       .education{
+      .education {
         display: flex;
         justify-content: center;
-        align-items: center;  
+        align-items: center;
         background-color: rgb(83, 78, 78);
         text-emphasis-color: rgb(193, 20, 20);
         text-align: center;
-        border-radius:30%;
+        border-radius: 30%;
         box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
         text-shadow: 2px 2px 4px rgb(0, 0, 0);
       }
+
+      .projects-heading {
+        text-align: center;
+        background-color: rgb(83, 78, 78);
+        border-radius: 5px;
+      }
+
+      .projects-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        padding : 20px;
+      }
+
+      .project-item {
+        width: 80%;
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(83, 78, 78);
+        border: 2px solid #ccc;
+        border-radius: 5px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+      .skillitems {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        background-color: rgb(83, 78, 78);
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        flex-direction: column;
+        margin: 8px 0;
+      }
       
-.projects-heading {
-  text-align: center;
-  background-color: rgb(83, 78, 78);
-  border-radius: 5px;
-}
 
-
-.projects-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center; 
-  gap: 20px;           
-}
-
-
-.project-item {
-  width: 80%;         
-  text-align: center;  
-  padding: 10px;
-  background-color: rgb(83, 78, 78);
-  border: 2px solid #ccc;
-  border-radius: 5px;
-}
-
-h2 {
-  text-align: center;
-}
-.skillitems{
-  display:flex;
-  justify-content: center;
-  padding : 10px;
-  background-color: rgb(83, 78, 78);
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  flex-direction : column;
-  margin : 8px 0 ;
-}
-.skills ul{
-  display:flex;
-  justify-content: center;
-  gap : 20px;
-}
-
-.projects-container div {
-  display: block;
-  text-align: center;
-  margin: 8px 0; 
-}
-.nav-links {
-  display:flex;
-  justify-content: center;
-  gap : 20px;
-}
-.skills{
-  display: flex;
-  justify-content: center;
-  gap:20px;
-  
-}
-
-
-
+      .projects-container div {
+        display: block;
+        text-align: center;
+        margin: 8px 0;
+        padding : 20px;
+      }
+      .nav-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .skills {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+       ul {
+        display: flex;
+        flex-direction : column;
+        justify-content: center;
+        gap: 10px;
+        padding : 20px;
+      }
     </style>
   </head>
   <body>
@@ -100,27 +100,28 @@ h2 {
         margin-top: 20px;
         background-color: rgb(83, 78, 78);
         border-radius: 5px;
-        border : 2px solid rgb(255,255,255);
+        border: 2px solid rgb(255, 255, 255);
       "
     >
       <h1>
         <b>Arunim Goyal</b>
-        <br/>
+        <br />
         <h2>portfolio site</h2>
       </h1>
     </div>
 
     <hr />
-    <div id="about"
+    <div
+      id="about"
       style="
         background-color: rgb(83, 78, 78);
         text-emphasis-color: white;
         text-align: center;
         border-radius: 5px;
-        border : 2px solid rgb(255,255,255);
+        border: 2px solid rgb(255, 255, 255);
       "
     >
-      <h2 ><b>About Me</b></h2>
+      <h2><b>About Me</b></h2>
       <br />
       <pre>
         I am a passionate web developer with experience in building dynamic and
@@ -129,13 +130,14 @@ h2 {
       </pre>
     </div>
     <hr />
-    <div id="education"
+    <div
+      id="education"
       style="
         background-color: rgb(83, 78, 78);
         text-emphasis-color: white;
         text-align: center;
         border-radius: 5px;
-        border : 2px solid rgb(255,255,255);
+        border: 2px solid rgb(255, 255, 255);
       "
     >
       <h2><b> My Education</b></h2>
@@ -149,21 +151,22 @@ h2 {
       >
     </div>
     <hr />
-    <div id ="skills"
+    <div
+      id="skills"
       style="
         background-color: rgb(83, 78, 78);
         text-emphasis-color: white;
         text-align: center;
         border-radius: 5px;
-        border : 2px solid rgb(255,255,255);
+        border: 2px solid rgb(255, 255, 255);
       "
     >
       <h2><b> My Skills</b></h2>
       <br />
       <ul>
-        <li class = "skillitems">HTML</li>
-        <li class = "skillitems">CSS</li>
-        <li class = "skillitems">JavaScript</li>
+        <li class="skillitems">HTML</li>
+        <li class="skillitems">CSS</li>
+        <li class="skillitems">JavaScript</li>
       </ul>
     </div>
     <hr />
@@ -172,8 +175,8 @@ h2 {
         background-color: rgb(83, 78, 78);
         text-emphasis-color: white;
         text-align: center;
-        border-radius:5px;
-        border : 2px solid rgb(255,255,255);
+        border-radius: 5px;
+        border: 2px solid rgb(255, 255, 255);
       "
     >
       <h2><b> My Goals</b></h2>
@@ -185,29 +188,49 @@ h2 {
       </p>
     </div>
     <hr />
-    <div class = "nav-links"
+    <div
+      class="nav-links"
       style="
         background-color: rgb(83, 78, 78);
         text-emphasis-color: white;
         text-align: center;
-        border-radius:5px;
-        border : 2px solid rgb(255,255,255);
-        
+        border-radius: 5px;
+        border: 2px solid rgb(255, 255, 255);
       "
     >
-    <a href ="#about">About me </a>
+      <a href="#about">About me </a>
       <a href="registrationform.html">contact me </a>
     </div>
-    <section class="projects-section">
-  <h2 class="projects-heading">My Projects</h2>
-  <div class="projects-container">
-    <div class="project-item">restaurant website <p>This is a simple restaurant website </p></div>
-    <div class="project-item">portfolio website <p>This is a simple portfolio website </p></div>
-    <div class="project-item">e-commerce website <p>This is a simple e-commerce website </p></div>
-    <div class="project-item">registration form <p>This is a simple registration form </p> <a href="registrationform.html">View Details</a></div>
-  </div>
-</section>
+    <section
+      class="projects-section"
+      style="
+        background-color: rgb(83, 78, 78);
+        text-emphasis-color: white;
+        text-align: center;
+        border-radius: 5px;
+        border: 2px solid rgb(255, 255, 255);
+      "
+    >
+      <h2 class="projects-heading">My Projects</h2>
+      <div class="projects-container">
+        <div class="project-item">
+          restaurant website
+          <p>This is a simple restaurant website</p>
+        </div>
+        <div class="project-item">
+          portfolio website
+          <p>This is a simple portfolio website</p>
+        </div>
+        <div class="project-item">
+          e-commerce website
+          <p>This is a simple e-commerce website</p>
+        </div>
+        <div class="project-item">
+          registration form
+          <p>This is a simple registration form</p>
+          <a href="registrationform.html">View Details</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
-
-
