@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce website</title>
+    <style>
+        .ec_header {
+            background-color: black;
+        }
+        .heading {
+            text-align: center;
+            background-image: url("https://fiteqentityprod.blob.core.windows.net/events/611/heroImage/banner_1788339120042.webp");
+            background-size: cover;
+            background-position: top;
+            border-radius: 5px;
+            color: white; 
+            padding: 40px 0;
+        }
+        .ec_div {
+            background-color: antiquewhite;
+            text-align: center;
+            border-radius: 5px;
+            padding: 10px 0;
+        }
+        .ec_div ul {
+            text-align: center;
+            display: flex;
+            list-style: none; 
+            gap: 20px;        
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+        }
+         
+        .festival_picks {
+            display: flex;
+            background-color: antiquewhite;
+            text-align: center;
+            justify-content: space-around;
+            padding: 15px;
+            gap: 20px;
+        }
+        .festival_picks div {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 15px;
+            border-radius: 5px;
+            flex: 1;
+            min-height: 180px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .best_sellers {
+            padding: 15px;
+        }
+        .best_sellers_grid {
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .best_sellers_grid div {
+            padding: 20px 15px;
+            border-radius: 5px;
+            flex: 1;
+            text-align: center;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .img_flowers {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBGb3ftrF3lqg22vvsh-jcgRbNh2m_1SaTLFK7dB4RoA&s=10");
+        }
+        .img_candles {
+            background-image: url("https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=400&q=80");
+        }
+        .img_lights {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnKTGtK5QV8Gmi0P4WE2UvvKHkkSiLqPaPkS9k3j0XDg&s=10");
+        }
+        .img_kumkum {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj09UwXC5kDdrmlhYRuldmzPY4Wis8-xkKjOWDYO9emg&s=10");
+        }
+
+        .img_dairy {
+            background-image: url("https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&w=400&q=80");
+        }
+        .img_veg {
+            background-image: url("https://images.unsplash.com/photo-1610348725531-843dff563e2c?auto=format&fit=crop&w=400&q=80");
+        }
+        .img_baked {
+            background-image: url("https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&q=80");
+        }
+        .img_snacks {
+            background-image: url("https://images.unsplash.com/photo-1599490659213-e2b9527bd087?auto=format&fit=crop&w=400&q=80");
+        }
+        .best_sellers  {
+            background-color: antiquewhite;
+            border-radius: 5px;
+
+        }
+        .best_sellers_grid div:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+        .festival_picks div:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+        .ec_footer{
+            background-color:antiquewhite;
+            padding: 20px;
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <header class="ec_header">
+        <h1 class="heading">Instanze</h1>
+        <div class="ec_div">
+            <ul>
+                <li>Cloths</li>
+                <li>grocery</li>
+                <li>Beauty</li>
+                <li>Utilities</li>
+                <li>Electronics</li>
+            </ul>
+        </div>
+    </header>
+
+    <h2 style="text-align: center;">Festival picks</h2>
+    <div class="festival_picks">
+        <div class="img_flowers">
+            <h2>flowers</h2>
+            <h3>Rs. 40</h3>
+        </div>
+        <div class="img_candles">
+            <h2>candles</h2>
+            <h3>Rs. 100</h3>
+        </div>
+        <div class="img_lights">
+            <h2>lights</h2>
+            <h3>Rs. 50</h3>
+        </div>
+        <div class="img_kumkum">
+            <h2>kumkum</h2>
+            <h3>Rs. 10</h3>
+        </div>
+    </div>
+    <hr>
+
+    <div class="best_sellers">
+        <h2 style="text-align: center;">Best sellers</h2>
+        <div class="best_sellers_grid">
+            <div class="img_dairy">
+                <h2>Dairy products</h2>
+                <br/>
+                <h3>starting at Rs. 50</h3>
+            </div>
+            <div class="img_veg">
+                <h2>vegetables and Fruits</h2>
+                <br/>
+                <h3>starting at Rs. 30</h3> 
+            </div>
+            <div class="img_baked">
+                <h2>Baked goods</h2>
+                <br/>
+                <h3>starting at Rs. 20</h3>
+            </div>
+            <div class="img_snacks">
+                <h2>chips and chocolates</h2>
+                <br/>>
+                <h3>starting at Rs. 10</h3>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer class="ec_footer">
+        <p>&copy; 2023 Instanze. All rights reserved.</p>
+    </footer>
+</body>
+</html>
